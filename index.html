@@ -25,6 +25,22 @@
           </li>
           <li>
             <a href="./portfolio.html" class="link index-link">Portfolio</a>
+            <style>
+              a.index-link {
+                position: relative;
+                display: inline-block;
+              }
+
+              a.index-link:hover::after {
+                content: '';
+                position: absolute;
+                background: #404BBF;
+                left: 0;
+                bottom: -25px;
+                width: 100%;
+                height: 2px;
+              }
+            </style>
           </li>
           <li>
             <a href="" class="link index-link">Contacts</a>
