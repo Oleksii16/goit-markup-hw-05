@@ -749,16 +749,12 @@ margin-left: 120px;
 
 }
 
-.index-link:after {
-border-radius: 2px;
-background: #40bf7b
-bottom: -5px;
-}
+
 
 /*.index-link:after {
-  content: '';
+  content: ;
   position: absolute;
-background: #404BBF;
+
 left: 0;
 bottom: -5px;
 width: 100%;  
