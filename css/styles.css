@@ -749,10 +749,10 @@ margin-left: 120px;
 
 }
 
-.sasa:hover {
+.index-link:after {
 border-radius: 2px;
 background: #40bf7b
-
+bottom: -5px;
 }
 
 /*.index-link:after {
