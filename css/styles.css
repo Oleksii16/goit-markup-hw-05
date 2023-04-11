@@ -1,22 +1,23 @@
 /*PORTFOLIO*/
 /*body*/
-  body{
-    color: #434455;
-    background-color: #FFFFFF;
-      font-family: "Roboto", sans-serif;
-  }
-/*logo*/
-/*.logo{
-  font-family: 'Raleway', sans-serif
-}*/
+body{
+  color: #434455;
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
 
-h3 {margin-top: 0px;
+h3 {
+  margin-top: 0px;
   margin-bottom: 0px;}
 
-  p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin: 0;
+}
 
 
 
@@ -256,6 +257,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   max-width: 1440px;
   height: 600px;
   margin: 0 auto;
+
+    position: relative;
 }
 
 /*---div---*/
@@ -282,8 +285,8 @@ text-align: center;
 
 /*---sekcia-2---*/
 .sectiontwoindex {
-padding-top: 120px;
-padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*---H2---*/
@@ -301,30 +304,26 @@ position: absolute;
 }
 
 /*---div---*/
-.div-section-two {
-
-}
 
 /*---UL---*/
 .list-section-two {
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 /*---1-LI---*/
-.li-one {
-}
+
 
 
 /*-----sekcia 2 1 li div---*/
 .div-li-one-svg {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #F4F4FD;
-margin-bottom: 8px;
-width: 264px;
-height: 112px;
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
 }
 /*---svg li 1 ------*/
 
@@ -359,7 +358,7 @@ height: 112px;
 
 /*---H3---LI-3---*/
 .h-three-li {
-margin: 0px;
+  margin: 0px;
 }
 
 /*---P-LI_3---*/
@@ -385,9 +384,7 @@ margin: 0px;
 
 /*---SEKCTION-3---*/
 .sectionthreeindex {
-
-padding-bottom: 120px;
-
+  padding-bottom: 120px;
 }
 
 /*---DIV---*/
@@ -401,7 +398,7 @@ padding-bottom: 120px;
 .ul-section-three {
   margin-top: 72px;
   display: flex;
-gap: 24px;
+  gap: 24px;
 }
 
 
@@ -421,15 +418,13 @@ gap: 24px;
 
 /*---UL-SECTION-4---*/
 .ul-section-four {
-margin-top: 72px;
-display: flex;
-gap: 24px;
+  margin-top: 72px;
+  display: flex;
+  gap: 24px;
 }
 
 /*---VSE H V sekcii 4---*/
-.sectionthree-h {
 
-}
 
 /*---VSE P V SEKCII 4---*/
 
@@ -446,9 +441,9 @@ gap: 24px;
 
 
 .sectionfour-li {
-text-align: center;
-background-color: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -468,8 +463,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 /*========LI------------*/
 .social-svg-li{
-    height: 40px;
-      width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 /*------A-------*/
@@ -515,16 +510,16 @@ font-weight: 700;
 
 /*---ul sekcia 5---*/
 .ul-section-five{
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 
 /*---a sekction 5---*/
 .a-section-five-svg {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 88px;
   width: 168px;
   border: 1px solid currentColor;
@@ -535,7 +530,7 @@ align-items: center;
   transition-duration: 250ms;
 }
 .a-section-five-svg:hover {
-color: #4D5AE5;
+  color: #4D5AE5;
 }
 .a-section-five-svg:focus {
   color: #4D5AE5;
@@ -545,16 +540,7 @@ color: #4D5AE5;
 /*---5 sekcia svg---*/
 .svg-section-five{
   fill: currentColor;
-
 }
-
-
-
-
-
-
-
-
 
 /*------A-------*/
 .a-social-svg-footer {
@@ -567,7 +553,7 @@ color: #4D5AE5;
   justify-content: center;
   fill: #F4F4FD;
 
-  transition-duration: background-color;
+  transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
@@ -612,8 +598,7 @@ letter-spacing: 0.02em;
 }
 
 /*---Footer logo---*/
-.logo-footer {
-}
+
 
 /*------svg---block---*/
 .svg-footer-index{
@@ -654,19 +639,10 @@ letter-spacing: 0.02em;
   color: #434455;
 }
 /*footer*/
-.fon-footer{
-
-}
-/*spisok 1 sekcia*/
-
-/*PORTFOLIO*/
 
 
 
-
-
-
-
+/*--------PORTFOLIO HEADER--------*/
 
 /*INDEX.HTML*/
 .index-link{
@@ -676,22 +652,13 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   color: #2e2f42;
 
-    transition-property: color;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-      transition-duration: 250ms;
-
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
-.index-link::after :hover{
+.index-link:hover::after {
   color: #404BBF;
 }
-
-
-
-
-
-
-
-
 
 .portfolio-link{
   line-height: 1.5;
@@ -717,6 +684,8 @@ letter-spacing: 0.02em;
   color: #ffffff;
 }
 
+
+/*---index кнопка Order Service---*/
 .buttonorder{
   background-color: #4D5AE5;
   font-family: 'Roboto',sans-serif;
@@ -739,13 +708,71 @@ letter-spacing: 0.02em;
 .buttonorder:focus{
   background-color: #404BBF;
 }
+/*---------------------------*/
+/*-----------модалка---------*/
+
+.div-modal-index-style {
+  width: 1440px;
+  height: 676px;
+  background: rgba(46, 47, 66, 0.4);
+  position: absolute;
+  top: -75px;
+
+}
+
+/*---div modal bg index---*/
+.div-modalbg-index {
+  width: 408px;
+  height: 576px;
+  background-color: #FCFCFC;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  position: absolute;
+  left: 200px;
+  top: 88px;
+
+}
+
+.svg-style {
+  display: inline;
+  fill: #2E2F42;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  
+}
+
+
+.div-border {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #E7E9FC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sectiontwoh{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-color: #2e2f42;
+  color: #2e2f42;
 }
 
 .sectiontwo-p{
@@ -767,12 +794,11 @@ color: #2e2f42;
 text-transform: capitalize;
 }
 .sectionfourindex{
-background-color: #F4F4FD;
+  background-color: #F4F4FD;
 }
 
 .section-index{
   background-color: #F4F4FD;
-
 }
 
 /*zagolovok 4 sekcia h3*/
@@ -828,14 +854,10 @@ background-color: #F4F4FD;
 
 /*---H2---KARTOCZKI---*/
 .list-twoh {
-
   margin-bottom: 8px;
 }
 /*---P-KARTOCZEK---*/
-.small-text {
 
-
-}
 
 .visually-hidden {
   position: absolute;
@@ -850,9 +872,7 @@ background-color: #F4F4FD;
   overflow: hidden;
 }
 
-h2{
-  margin: 0;
-}
+
 
 .div-twoo-footer{
   display: inline-block;
@@ -873,10 +893,10 @@ line-height: 1.5;
 
 
 
-/*---test---*/
+/*---Синее выезжающее окно---*/
 
 .p-test-style {
-font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -907,3 +927,5 @@ font-weight: 400;
   transform: translateY(-300px);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*----------------------------------*/
+
