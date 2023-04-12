@@ -130,9 +130,7 @@ gap: 40px;
 }
 
 /*---logo-header---*/
-.logo-header {
 
-}
 
 .mail{
   font-weight: 400;
@@ -737,6 +735,10 @@ letter-spacing: 0.02em;
 
   display: flex;
   flex-direction: row-reverse;
+  justify-content: flex-start;
+
+transition-property: transform;
+
 }
 
 /*-----кнопка close-----*/
@@ -789,6 +791,13 @@ letter-spacing: 0.02em;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+/*появление окна*/
+.buttonorder:hover ~.div-modal-index-style {
+  visibility: visible;
+  opacity: 2;
+  scale: 1;
 }
 
 
