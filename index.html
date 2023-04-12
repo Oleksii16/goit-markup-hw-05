@@ -64,49 +64,29 @@
     <!--SECTION 1-->
     <section class="sectionindex">
 
-      <!---------модалка------------->
-      <div class="div-modal-index-style">
 
-        <div class="div-modalbg-index">
-          <div class="div-border">
-            <svg class="svg-style">
-              <use class="use-close-style" href="./images/close-modal/kszyz.svg#icon-Vector"></use>
-            </svg>
-          </div>
-
-        </div>
-
-
-
-
-
-
-
-      </div>
 
 
 
       <div class="container div-section-one">
         <h1 class="hhindex h-one-section">Effective Solutions
           for Your Business</h1>
-        <button type="button" class="buttonorder">Order Service</button>
 
 
+        <button data-modal-open type="button" class="buttonorder">Order Service</button>
 
+        <!---------модалка------------->
+        <div class="div-modal-index-style is-hiden" data-modal>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <div class="div-modalbg-index">
+            <div class="div-border backdrop">
+              <svg class="svg-style">
+                <use class="use-close-style" href="./images/close-modal/kszyz.svg#icon-Vector"></use>
+              </svg>
+            </div>
+            <button data-modal-close></button>
+          </div>
+        </div>
 
 
 
@@ -489,6 +469,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/modal.js"></script>
+
 </body>
 
 
