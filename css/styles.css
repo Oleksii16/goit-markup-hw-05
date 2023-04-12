@@ -709,6 +709,8 @@ letter-spacing: 0.02em;
   background-color: #404BBF;
 }
 /*---------------------------*/
+
+
 /*-----------модалка---------*/
 
 .div-modal-index-style {
@@ -717,7 +719,7 @@ letter-spacing: 0.02em;
   background: rgba(46, 47, 66, 0.4);
   position: absolute;
   top: -75px;
-
+  left: 0px;
 }
 
 /*---div modal bg index---*/
@@ -730,11 +732,14 @@ letter-spacing: 0.02em;
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: absolute;
-  left: 200px;
+  left: 516px;
   top: 88px;
 
+  display: flex;
+  flex-direction: row-reverse;
 }
 
+/*-----кнопка close-----*/
 .svg-style {
   display: inline;
   fill: #2E2F42;
@@ -742,8 +747,27 @@ letter-spacing: 0.02em;
   height: 8px;
   border-radius: 50%;
   
+  transition-property: fill, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
+.div-border:hover .svg-style {
+  fill: #FFFFFF;
+  background-color: #404BBF;
+
+}
+.div-border:focus .svg-style {
+  fill: #FFFFFF;
+  background-color: #404BBF;
+}
+
+.div-border:hover {
+  background-color: #404BBF;
+}
+.div-border:focus {
+  background-color: #404BBF;
+}
 
 .div-border {
   width: 24px;
@@ -751,9 +775,21 @@ letter-spacing: 0.02em;
   border-radius: 50%;
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+
+  margin-right: 24px;
+  margin-top: 24px;
 }
+/*============================*/
 
-
+.is-hiden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
 
 
 
