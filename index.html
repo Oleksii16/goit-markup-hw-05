@@ -31,16 +31,16 @@
                 display: inline-block;
               }
 
-              a.index-link:hover::after {
+              /*a.index-link:hover:after {
                 content: '';
                 position: absolute;
-                background: #404BBF;
+                background-color: #404BBF;
                 left: 0;
                 bottom: -24.5px;
                 width: 100%;
                 height: 4px;
                 border-radius: 2px;
-              }
+              }*/
             </style>
           </li>
           <li>
@@ -65,9 +65,6 @@
     <section class="sectionindex">
 
 
-
-
-
       <div class="container div-section-one">
         <h1 class="hhindex h-one-section">Effective Solutions
           for Your Business</h1>
@@ -75,17 +72,20 @@
 
         <button data-modal-open type="button" class="buttonorder">Order Service</button>
 
-        <!---------модалка------------->
+        <!---------модалка  серый фон------------->
         <div class="div-modal-index-style is-hiden" data-modal>
 
+          <!--белый фон-->
           <div class="div-modalbg-index">
-            <div class="div-border backdrop">
-              <svg class="svg-style">
+
+            <!--кнопка-->
+            <button class="div-border" data-modal-close><svg class="svg-style  backdrop">
                 <use class="use-close-style" href="./images/close-modal/kszyz.svg#icon-Vector"></use>
               </svg>
-            </div>
-            <button data-modal-close></button>
+            </button>
+
           </div>
+
         </div>
 
 
