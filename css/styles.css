@@ -644,12 +644,8 @@ letter-spacing: 0.02em;
 
 /*INDEX.HTML*/
 .index-link{
-
   position: relative;
   display: inline-block;
-
-
-
 
   line-height: 1.5;
   font-weight: 500;
@@ -661,11 +657,11 @@ letter-spacing: 0.02em;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-
+/*
 .current:hover:after {
   
   color: #404BBF;
-}
+}*/
 
 .current::after {
     content: '';
@@ -673,7 +669,7 @@ letter-spacing: 0.02em;
     background-color: #404BBF;
 
     left: 0;
-    bottom: -24.5px;
+    bottom: -24px;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -683,9 +679,25 @@ letter-spacing: 0.02em;
 .current {
   position: relative;
   display: inline-block;
-    color: #404BBF;
+  color: #404BBF;
 }
 
+
+
+
+
+/*
+                            a.index-link:hover::after {
+                              content: '';
+                              position: absolute;
+                              background: #404BBF;
+                              left: 0;
+                              bottom: -24px;
+                              width: 100%;
+                              height: 4px;
+                              border-radius: 2px;
+                            }
+*/
 
 
 
@@ -754,7 +766,6 @@ letter-spacing: 0.02em;
 
 
 /*-----------модалка---------*/
-
 .div-modal-index-style .is-hidden {
   width: 100%;
   height: 100%;
@@ -767,7 +778,20 @@ letter-spacing: 0.02em;
   transition-duration: 500ms;
 }
 
+/*======серый фон======*/
+.div-modal-index-style {
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+/*====================*/
 
+/*======белый фон======*/
 /*---div modal bg index---*/
 .div-modalbg-index {
   width: 408px;
@@ -781,10 +805,9 @@ letter-spacing: 0.02em;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
   transition-property: transform;
-
 }
+/*====================*/
 
 /*-----кнопка close-----*/
 .svg-style {
@@ -793,7 +816,6 @@ letter-spacing: 0.02em;
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  
   transition-property: fill, background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
@@ -802,7 +824,6 @@ letter-spacing: 0.02em;
 .div-border:hover .svg-style {
   fill: #FFFFFF;
   background-color: #404BBF;
-
 }
 .div-border:focus .svg-style {
   fill: #FFFFFF;
@@ -820,53 +841,24 @@ letter-spacing: 0.02em;
   position: absolute;
   right: 24px;
   top: 24px;
-
   width: 24px;
   height: 24px;
   border-radius: 50%;
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
-
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-
-
 }
-/*============================*/
 
 .is-hidden {
-  
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-
 }
+/*============================*/
 
-/*появление окна*/
-/*
-.buttonorder:active ~ .div-modal-index-style {
-  
-  visibility: visible;
-  opacity: 2;
-  scale: (1.5);
-  
-  transform: scale(1.1);
-  
-} 
 /*.buttonorder*/
-
-
-
-
-
-
-
-
-
-
-
-
 .sectiontwoh{
   font-weight: 500;
   font-size: 20px;
@@ -949,7 +941,6 @@ text-transform: capitalize;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-
 }
 
 /*---H2---KARTOCZKI---*/
@@ -1004,13 +995,8 @@ line-height: 1.5;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 40px;
-
-/*  width: 360px;
-  height: 300px;*/
-
   width: 100%;
   height: 100%;
-
   display: inline-block;
   background-color: #404BBF;
 }
@@ -1023,16 +1009,9 @@ line-height: 1.5;
 
 .p-test {
   position: absolute;
-
   top: 0;
   left: 0;
   transform: translateY(100%);
-  
-
-
-
-
-
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
@@ -1040,7 +1019,6 @@ line-height: 1.5;
 
 .card-link:hover .p-test, .card-link:focus .p-test {
   transform: translateY(0);
-  /*-300*/
 }
 
 
